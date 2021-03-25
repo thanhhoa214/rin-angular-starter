@@ -1,6 +1,20 @@
 # Rin Angular Starter
 Angular Starter Template for initialization faster and robust.
 
+
+### About Me
+<img src="https://trello-members.s3.amazonaws.com/59169b4cdb7b86a9f6012efb/e0223ddc9d7e21b236619efc65aa8612/170.png" style="width: 70px; height: 70px; border-radius: 50%;"/>
+
+**Author**: Hòa Nguyễn <br/>
+**Phone**: <a href="tel:(+84) 979 210 499">(+84) 979 210 499</a> <br/>
+**City**: Ho Chi Minh City, Viet Nam <br/>
+**Channels**:
+- Linkedin: linkedin.com/in/thanhhoa214/
+- Twitter: twitter.com/thanhhoa214
+- What'sApp: (+84) 979 210 499
+
+<div style="margin-top: 30px;"></div>
+
 ## 1. Branches:
 
 ### `RAS-01`: With ESLint + Prettier
