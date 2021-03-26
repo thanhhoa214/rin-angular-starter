@@ -50,7 +50,12 @@ State management follows CQRS pattern for Angular application.
 - `@ngxs-labs/immer-adapter` which depends on `immer`
 - `ngxs-reset-plugin` for resetting whole store.
 
-### `RAS-03`: With `RAS-01` + GraphQL
+### `RAS-03`: With `RAS-01` + Restful API
+#### `@openapitools/openapi-generator-cli`
+Auto-generate Restful API models & services for using at the hand.
+- `@openapitools/openapi-generator-cli` (development only)
+
+### `RAS-04`: With `RAS-01` + GraphQL
 
 #### GraphQL [official document](https://graphql.org/): 
 GraphQL provides awesome interactive with Back-end through single endpoint, flexible queries, and so on.
@@ -73,12 +78,12 @@ GraphQL provides awesome interactive with Back-end through single endpoint, flex
 - Apollo Config: pair with `Apollo GraphQL` extension in VSC
 
 
-### `RAS-02`: With `RAS-01` + Multilingual
+### `RAS-05`: With `RAS-01` + Multilingual
 #### Ngx Translate:
 - `@ngx-translate/core`
 - `@ngx-translate/http-loader`
 
-### `RAS-04`: With `RAS-01` + Ionic(Capacitor)+
+### `RAS-06`: With `RAS-01` + Ionic(Capacitor)+
 #### Ionic [official document](https://ionicframework.com/): 
 Great hybrid framework for building mobile application by web technologies, provides awesome **UI Components** and **Native Plugins**.
 - Ionic
@@ -94,7 +99,23 @@ Great hybrid framework for building mobile application by web technologies, prov
 - `cordova-res`: Autogenerate splashscreen + icon for iOS and Android, still has a small issue on Android with fix [Create app icons](https://developer.android.com/studio/write/image-asset-studio#access)
 - `jetifier` to migrate all Java/Kotlin packages to Android X.
 
-### `RAS-05`: With `RAS-01` + `RAS-02` + `RAS-03`
+### `RAS-07`: With `RAS-02` + `RAS-03`
+
+### `RAS-08`: With `RAS-02` + `RAS-04`
+
+### `RAS-09`: With `RAS-02` + `RAS-03` + `RAS-05`
+
+### `RAS-10`: With `RAS-02` + `RAS-04` + `RAS-05`
+
+### `RAS-11`: With `RAS-02` + `RAS-03` + `RAS-06`
+
+### `RAS-12`: With `RAS-02` + `RAS-04` + `RAS-06`
+
+### `RAS-13`: With `RAS-02` + `RAS-03` + `RAS-05` + `RAS-06`
+
+### `RAS-14`: With `RAS-02` + `RAS-04` + `RAS-05` + `RAS-06`
+
+### `RAS-15`: With `RAS-01` + Gitlab Mobile CI/CD
 
 ## 2. Awesome libraries for solving special problems:
 ### 1. CryptoJS [offical document](https://cryptojs.gitbook.io/docs/)
